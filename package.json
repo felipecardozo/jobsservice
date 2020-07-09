@@ -1,0 +1,27 @@
+{
+  "name": "jobsservice",
+  "version": "1.0.0",
+  "description": "Microservice in node to fetch jobs from github jobs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felipecardozo/jobsservice.git"
+  },
+  "keywords": [
+    "node",
+    "microservice"
+  ],
+  "author": "Felipe Cardozo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/felipecardozo/jobsservice/issues"
+  },
+  "homepage": "https://github.com/felipecardozo/jobsservice#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
